@@ -11,7 +11,7 @@ class Project(models.Model):
     update_date = models.DateTimeField(auto_now=True)
 
     class Meta:
-        # Metadata for model
+        # Metadata for media
         ordering = ['-created_date']  # Reversed order
 
     def __str__(self):
